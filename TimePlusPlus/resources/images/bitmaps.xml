@@ -1,0 +1,4 @@
+<resources>
+    <bitmap id="AlarmIcon" filename="alarm.png" />
+    <bitmap id="ConnectedIcon" filename="connected.png" />
+</resources>
