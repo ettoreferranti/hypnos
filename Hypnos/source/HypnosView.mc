@@ -8,6 +8,7 @@ class HypnosView extends Ui.View {
 
 	var accel;
 	var dataTimer;
+	var width;
 
     function initialize() {
         View.initialize();
@@ -15,6 +16,7 @@ class HypnosView extends Ui.View {
 
     //! Load your resources here
     function onLayout(dc) {
+	    width = dc.getWidth();
         dataTimer = new Timer.Timer();
         dataTimer.start( method(:timerCallback), 100, true );
     }
@@ -49,6 +51,8 @@ class HypnosView extends Ui.View {
         {
             accel = info.accel;
         }
+        Ui.requestUpdate(); 
+        
     }
 
     //! Called when this View is removed from the screen. Save the
