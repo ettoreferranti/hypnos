@@ -15,13 +15,12 @@ class HypnosView extends Ui.View {
 	
 	var currentTotal = 0;
 	
-	
 	/* The idea is: we store an array of (x,y,z) acceleration components. Every timeStep we 
 	   measure a new vector and we compare with the old one, adding the modulo of the
        difference to an array of acceleration modules over a window.
 	*/
 	var oldAcceleration = new [3];
-	var accelerationsArray = new [60];
+	var accelerationsArray = new [windowSize];
 	
 	// Used to launch computation every windowSize step.
 	var timeStepCounter = 0; 
@@ -38,7 +37,7 @@ class HypnosView extends Ui.View {
     function onLayout(dc) {
 	    width = dc.getWidth();
         dataTimer = new Timer.Timer();
-        dataTimer.start( method(:timerCallback), 500, true );
+        dataTimer.start( method(:timerCallback), timeStep, true );
     }
 
     //! Called when this View is brought to the foreground. Restore
