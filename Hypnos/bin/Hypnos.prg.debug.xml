@@ -1237,10 +1237,10 @@
 <entry endPc="268436763" name="i" stackId="3" startPc="268436725"/>
 <entry endPc="268436947" name="accModulo" stackId="2" startPc="268436226"/>
 <entry endPc="268436966" name="info" stackId="1" startPc="268436182"/>
-<entry endPc="268437673" name="rez_cmp_local_label_UZZJO4GX9C_fontHeight" stackId="4" startPc="268437285"/>
-<entry endPc="268437673" name="rez_cmp_local_label_UZZJO4GX9C_font" stackId="2" startPc="268437285"/>
+<entry endPc="268437673" name="rez_cmp_local_label_XXIANU1T3L" stackId="3" startPc="268437285"/>
+<entry endPc="268437673" name="rez_cmp_local_label_XXIANU1T3L_fontHeight" stackId="4" startPc="268437285"/>
+<entry endPc="268437673" name="rez_cmp_local_label_XXIANU1T3L_font" stackId="2" startPc="268437285"/>
 <entry endPc="268437673" name="rez_cmp_local_bitmap_id_monkey" stackId="5" startPc="268437285"/>
-<entry endPc="268437673" name="rez_cmp_local_label_UZZJO4GX9C" stackId="3" startPc="268437285"/>
 </localVars>
 <annotations/>
 <functions>
