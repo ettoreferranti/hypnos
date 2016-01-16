@@ -11,7 +11,7 @@ class HypnosView extends Ui.View {
 	var dataTimer;
 	var width;
 
-	var timeStep = 200;
+	var timeStep = 500;
 	var windowSize = 60;
 	
 	var currentTotal = 0;
@@ -90,7 +90,7 @@ class HypnosView extends Ui.View {
             // params non funziona.
         	// options non funziona.
     	    // mettiamo tutto nella URL e avanti cosi', a cazzo di cane.        
-			Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things?franco-"+Sytem.getTimer()+"-"+accel[0]+"-"+accel[1]+"-"+accel[2],
+			Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things?franco-"+System.getTimer()+"-"+accel[0]+"-"+accel[1]+"-"+accel[2],
 							 null, null, method(:jsonCallback));
             
             // Compute the modulo of the difference wrt to previous accel. values

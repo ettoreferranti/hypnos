@@ -595,8 +595,8 @@
 <entry field="true" id="8389038" symbol="NUMBER_PICKER_HEIGHT"/>
 <entry id="8389057" method="true" symbol="pageCtrlNative"/>
 <entry field="true" id="8388815" symbol="INVALID_HTTP_HEADER_FIELDS_IN_NETWORK_RESPONSE"/>
-<entry id="38" symbol="item_2"/>
-<entry id="37" symbol="item_1"/>
+<entry id="37" symbol="item_2"/>
+<entry id="36" symbol="item_1"/>
 <entry field="true" id="8389636" symbol="DEFAULT_NETWORK_KEY"/>
 <entry id="8389481" symbol="setListener"/>
 <entry field="true" id="8389474" symbol="leftOrCombinedPedalSmoothness"/>
@@ -1021,7 +1021,6 @@
 <entry id="8389191" method="true" symbol="getTextDimensions"/>
 <entry field="true" id="8388740" symbol="maxSpeed"/>
 <entry id="8388616" module="true" symbol="Toybox_Communications"/>
-<entry id="36" symbol="Sytem"/>
 <entry field="true" id="8389210" symbol="MSG_ID_OPEN_CHANNEL"/>
 <entry id="8388943" method="true" symbol="subtract"/>
 <entry id="8389345" symbol="rezId"/>
@@ -1237,10 +1236,10 @@
 <entry endPc="268436763" name="i" stackId="3" startPc="268436725"/>
 <entry endPc="268436947" name="accModulo" stackId="2" startPc="268436226"/>
 <entry endPc="268436966" name="info" stackId="1" startPc="268436182"/>
-<entry endPc="268437673" name="rez_cmp_local_label_XXIANU1T3L" stackId="3" startPc="268437285"/>
-<entry endPc="268437673" name="rez_cmp_local_label_XXIANU1T3L_fontHeight" stackId="4" startPc="268437285"/>
-<entry endPc="268437673" name="rez_cmp_local_label_XXIANU1T3L_font" stackId="2" startPc="268437285"/>
+<entry endPc="268437673" name="rez_cmp_local_label_4JNGIX6L7D_fontHeight" stackId="4" startPc="268437285"/>
+<entry endPc="268437673" name="rez_cmp_local_label_4JNGIX6L7D_font" stackId="2" startPc="268437285"/>
 <entry endPc="268437673" name="rez_cmp_local_bitmap_id_monkey" stackId="5" startPc="268437285"/>
+<entry endPc="268437673" name="rez_cmp_local_label_4JNGIX6L7D" stackId="3" startPc="268437285"/>
 </localVars>
 <annotations/>
 <functions>
