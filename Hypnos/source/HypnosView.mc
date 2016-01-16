@@ -14,6 +14,13 @@ class HypnosView extends Ui.View {
 	var windowSize = 60;
 	
 	var currentTotal = 0;
+
+    // To print max, min, avg accel	
+	var maxAccel = 0;
+	var minAccel = 999999999;
+	var avgAccel = 0;
+	var totalTimeSteps = 0;
+	var totAccel = 0;
 	
 	/* The idea is: we store an array of (x,y,z) acceleration components. Every timeStep we 
 	   measure a new vector and we compare with the old one, adding the modulo of the
@@ -53,8 +60,11 @@ class HypnosView extends Ui.View {
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
         if( accel != null )
         {
-        	dc.drawText( width / 2, 0, Gfx.FONT_TINY, "Ax =" + accel[0], Gfx.TEXT_JUSTIFY_CENTER );
-            dc.drawText( width / 2, 23, Gfx.FONT_TINY, "Current total = " + currentTotal, Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText( width / 2, 23, Gfx.FONT_TINY, "Current = " + currentTotal, Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText( width / 2, 46, Gfx.FONT_TINY, "Max = " + maxAccel, Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText( width / 2, 69, Gfx.FONT_TINY, "Min = " + minAccel, Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText( width / 2, 92, Gfx.FONT_TINY, "Avg = " + avgAccel, Gfx.TEXT_JUSTIFY_CENTER );
+            dc.drawText( width / 2, 115, Gfx.FONT_TINY, "Time steps = " + totalTimeSteps, Gfx.TEXT_JUSTIFY_CENTER );
         }
         else
         {
@@ -91,7 +101,17 @@ class HypnosView extends Ui.View {
             	for (var i=0; i<timeStepCounter; i++) {
             		currentTotal += accelerationsArray[i];
             	} 
-            	timeStepCounter = 0; 
+            	currentTotal = currentTotal / 1000;
+            	timeStepCounter = 0;
+            	totalTimeSteps++;
+            	
+            	if  ( currentTotal < minAccel ) {
+            		minAccel = currentTotal;
+            	}
+            	if ( currentTotal > maxAccel ) {
+            		maxAccel = currentTotal;
+            	}
+            	avgAccel = (avgAccel*(totalTimeSteps-1)+currentTotal)/totalTimeSteps;
             }            
         }
 	   	Ui.requestUpdate();

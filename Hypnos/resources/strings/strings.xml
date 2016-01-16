@@ -1,5 +1,5 @@
 <strings>
-    <string id="AppName">${appName}</string>
+    <string id="AppName">Hypnos</string>
 
     <string id="prompt">Click the menu button</string>
 
