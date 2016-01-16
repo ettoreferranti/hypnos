@@ -3,6 +3,7 @@ using Toybox.Graphics as Gfx;
 using Toybox.Sensor as Sensor;
 using Toybox.Timer as Timer;
 using Toybox.System as Sys;
+using Toybox.Communications as Comm;
 
 class HypnosView extends Ui.View {
 
@@ -32,13 +33,27 @@ class HypnosView extends Ui.View {
 	// Used to launch computation every windowSize step.
 	var timeStepCounter = 0; 
 	
+	function jsonCallback(responseCode, data)
+    {
+    	Sys.println("Response code: " + responseCode);
+    	Sys.println("-------------");
+    	Sys.println("Data: " + data);
+    }
+	
     function initialize() {
         View.initialize();
         // FIXME: shoud be initialised to correct current value
         oldAcceleration[0] = 0;
         oldAcceleration[1] = 0;
         oldAcceleration[2] = 0;
+        
+        // FIXME: this is just a test
+        Comm.makeJsonRequest("http://jsonplaceholder.typicode.com/posts/1", null, null, method(:jsonCallback));
+		//var options = { :method => Comm.HTTP_REQUEST_METHOD_GET }; 
+		//Comm.makeJsonRequest("localhost:8000/things", null, null, method(:jsonCallback));
     }
+    
+    
 
     //! Load your resources here
     function onLayout(dc) {
@@ -58,7 +73,8 @@ class HypnosView extends Ui.View {
         // Call the parent onUpdate function to redraw the layout
         View.onUpdate(dc);
         dc.setColor(Gfx.COLOR_WHITE, Gfx.COLOR_TRANSPARENT);
-        if( accel != null )
+        
+		if( accel != null )
         {
             dc.drawText( width / 2, 23, Gfx.FONT_TINY, "Current = " + currentTotal, Gfx.TEXT_JUSTIFY_CENTER );
             dc.drawText( width / 2, 46, Gfx.FONT_TINY, "Max = " + maxAccel, Gfx.TEXT_JUSTIFY_CENTER );
