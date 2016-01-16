@@ -11,7 +11,7 @@ class HypnosView extends Ui.View {
 	var dataTimer;
 	var width;
 
-	var timeStep = 500;
+	var timeStep = 200;
 	var windowSize = 60;
 	
 	var currentTotal = 0;
@@ -46,12 +46,6 @@ class HypnosView extends Ui.View {
         oldAcceleration[0] = 0;
         oldAcceleration[1] = 0;
         oldAcceleration[2] = 0;
-
-        // params non funziona.
-        // options non funziona.
-        // mettiamo tutto nella URL e avanti cosi', a cazzo di cane.        
-		Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things?vafancu",
-							 null, null, method(:jsonCallback));
     }
 
     //! Load your resources here
@@ -89,10 +83,15 @@ class HypnosView extends Ui.View {
     
     function timerCallback() {
         var info = Sensor.getInfo();
-
         if( info has :accel && info.accel != null )
         {
             accel = info.accel;
+            
+            // params non funziona.
+        	// options non funziona.
+    	    // mettiamo tutto nella URL e avanti cosi', a cazzo di cane.        
+			Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things?franco-"+Sytem.getTimer()+"-"+accel[0]+"-"+accel[1]+"-"+accel[2],
+							 null, null, method(:jsonCallback));
             
             // Compute the modulo of the difference wrt to previous accel. values
             var accModulo = (accel[0] - oldAcceleration[0])*(accel[0] - oldAcceleration[0]) +
