@@ -51,7 +51,7 @@ class HypnosView extends Ui.View {
         //Comm.makeJsonRequest("http://jsonplaceholder.typicode.com/posts/1", null, null, method(:jsonCallback));
 		
 		var options = { :method => Comm.HTTP_REQUEST_METHOD_GET }; 
-		Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things", null, null, method(:jsonCallback));
+		Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things", {}, null, method(:jsonCallback));
     }
     
     
