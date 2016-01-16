@@ -46,15 +46,13 @@ class HypnosView extends Ui.View {
         oldAcceleration[0] = 0;
         oldAcceleration[1] = 0;
         oldAcceleration[2] = 0;
-        
-        // FIXME: this is just a test
-        //Comm.makeJsonRequest("http://jsonplaceholder.typicode.com/posts/1", null, null, method(:jsonCallback));
-		
-		var options = { :method => Comm.HTTP_REQUEST_METHOD_GET }; 
-		Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things", null, options, method(:jsonCallback));
+
+        // params non funziona.
+        // options non funziona.
+        // mettiamo tutto nella URL e avanti cosi', a cazzo di cane.        
+		Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things?vafancu",
+							 null, null, method(:jsonCallback));
     }
-    
-    
 
     //! Load your resources here
     function onLayout(dc) {

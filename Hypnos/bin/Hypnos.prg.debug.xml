@@ -1,70 +1,74 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <debugInfo>
 <pcToLineNum>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="36" pc="268435458" symbol="initialize"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="38" pc="268435476" symbol="initialize"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="39" pc="268435495" symbol="initialize"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="40" pc="268435514" symbol="initialize"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="45" pc="268435536" symbol="onLayout"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="46" pc="268435555" symbol="onLayout"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="47" pc="268435589" symbol="onLayout"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="59" pc="268435639" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="60" pc="268435659" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="61" pc="268435695" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="63" pc="268435708" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="64" pc="268435777" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="65" pc="268435846" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="66" pc="268435915" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="67" pc="268435984" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="71" pc="268436056" symbol="onUpdate"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="76" pc="268436110" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="78" pc="268436127" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="80" pc="268436154" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="83" pc="268436170" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="88" pc="268436351" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="92" pc="268436370" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="93" pc="268436398" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="94" pc="268436426" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="96" pc="268436454" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="98" pc="268436473" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="100" pc="268436499" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="101" pc="268436512" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="102" pc="268436533" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="104" pc="268436571" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="105" pc="268436593" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="106" pc="268436606" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="108" pc="268436625" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="109" pc="268436645" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="111" pc="268436664" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="112" pc="268436684" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="114" pc="268436703" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="117" pc="268436758" symbol="timerCallback"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="29" pc="268437655" symbol="&lt;init&gt;"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="30" pc="268437669" symbol="&lt;init&gt;"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosMenuDelegate.mc" lineNum="7" pc="268436780" symbol="initialize"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosMenuDelegate.mc" lineNum="11" pc="268436801" symbol="onMenuItem"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosMenuDelegate.mc" lineNum="12" pc="268436812" symbol="onMenuItem"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosMenuDelegate.mc" lineNum="14" pc="268436847" symbol="onMenuItem"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosDelegate.mc" lineNum="6" pc="268436874" symbol="initialize"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosDelegate.mc" lineNum="11" pc="268436895" symbol="onMenu"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosApp.mc" lineNum="7" pc="268436901" symbol="initialize"/>
-<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosApp.mc" lineNum="20" pc="268436928" symbol="getInitialView"/>
-<entry filename="Rez" lineNum="5" pc="268437581" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="6" pc="268437590" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="7" pc="268437599" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="8" pc="268437608" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="16" pc="268436968" symbol="initialize"/>
-<entry filename="Rez" lineNum="17" pc="268436986" symbol="initialize"/>
-<entry filename="Rez" lineNum="18" pc="268437038" symbol="initialize"/>
-<entry filename="Rez" lineNum="25" pc="268437540" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="26" pc="268437549" symbol="&lt;init&gt;"/>
-<entry filename="Rez" lineNum="35" pc="268437093" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="36" pc="268437107" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="37" pc="268437247" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="38" pc="268437262" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="39" pc="268437314" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="40" pc="268437402" symbol="MainLayout"/>
-<entry filename="Rez" lineNum="41" pc="268437454" symbol="MainLayout"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="38" pc="268435458" symbol="jsonCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="39" pc="268435482" symbol="jsonCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="40" pc="268435503" symbol="jsonCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="44" pc="268435530" symbol="initialize"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="46" pc="268435548" symbol="initialize"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="47" pc="268435567" symbol="initialize"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="48" pc="268435586" symbol="initialize"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="53" pc="268435605" symbol="initialize"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="59" pc="268435647" symbol="onLayout"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="60" pc="268435666" symbol="onLayout"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="61" pc="268435700" symbol="onLayout"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="73" pc="268435750" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="74" pc="268435770" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="76" pc="268435806" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="78" pc="268435819" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="79" pc="268435888" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="80" pc="268435957" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="81" pc="268436026" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="82" pc="268436095" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="86" pc="268436167" symbol="onUpdate"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="91" pc="268436221" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="93" pc="268436238" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="95" pc="268436265" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="98" pc="268436281" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="103" pc="268436462" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="107" pc="268436481" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="108" pc="268436509" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="109" pc="268436537" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="111" pc="268436565" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="113" pc="268436584" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="115" pc="268436610" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="116" pc="268436623" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="117" pc="268436644" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="119" pc="268436682" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="120" pc="268436704" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="121" pc="268436717" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="123" pc="268436736" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="124" pc="268436756" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="126" pc="268436775" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="127" pc="268436795" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="129" pc="268436814" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="132" pc="268436869" symbol="timerCallback"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="30" pc="268437766" symbol="&lt;init&gt;"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosView.mc" lineNum="31" pc="268437780" symbol="&lt;init&gt;"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosMenuDelegate.mc" lineNum="7" pc="268436891" symbol="initialize"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosMenuDelegate.mc" lineNum="11" pc="268436912" symbol="onMenuItem"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosMenuDelegate.mc" lineNum="12" pc="268436923" symbol="onMenuItem"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosMenuDelegate.mc" lineNum="14" pc="268436958" symbol="onMenuItem"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosDelegate.mc" lineNum="6" pc="268436985" symbol="initialize"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosDelegate.mc" lineNum="11" pc="268437006" symbol="onMenu"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosApp.mc" lineNum="7" pc="268437012" symbol="initialize"/>
+<entry filename="/Users/franco/college/mysoft/hypnos/Hypnos/source/HypnosApp.mc" lineNum="20" pc="268437039" symbol="getInitialView"/>
+<entry filename="Rez" lineNum="5" pc="268437692" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="6" pc="268437701" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="7" pc="268437710" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="8" pc="268437719" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="16" pc="268437079" symbol="initialize"/>
+<entry filename="Rez" lineNum="17" pc="268437097" symbol="initialize"/>
+<entry filename="Rez" lineNum="18" pc="268437149" symbol="initialize"/>
+<entry filename="Rez" lineNum="25" pc="268437651" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="26" pc="268437660" symbol="&lt;init&gt;"/>
+<entry filename="Rez" lineNum="35" pc="268437204" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="36" pc="268437218" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="37" pc="268437358" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="38" pc="268437373" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="39" pc="268437425" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="40" pc="268437513" symbol="MainLayout"/>
+<entry filename="Rez" lineNum="41" pc="268437565" symbol="MainLayout"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388698" method="true" symbol="start"/>
@@ -591,8 +595,8 @@
 <entry field="true" id="8389038" symbol="NUMBER_PICKER_HEIGHT"/>
 <entry id="8389057" method="true" symbol="pageCtrlNative"/>
 <entry field="true" id="8388815" symbol="INVALID_HTTP_HEADER_FIELDS_IN_NETWORK_RESPONSE"/>
-<entry id="36" symbol="item_2"/>
-<entry id="35" symbol="item_1"/>
+<entry id="37" symbol="item_2"/>
+<entry id="36" symbol="item_1"/>
 <entry field="true" id="8389636" symbol="DEFAULT_NETWORK_KEY"/>
 <entry id="8389481" symbol="setListener"/>
 <entry field="true" id="8389474" symbol="leftOrCombinedPedalSmoothness"/>
@@ -1048,7 +1052,7 @@
 <entry id="8389628" method="true" symbol="getDrawable"/>
 <entry field="true" id="8389230" symbol="NETWORK_PLUS"/>
 <entry id="8388656" object="true" symbol="InputDelegate"/>
-<entry id="34" method="true" symbol="timerCallback"/>
+<entry id="35" method="true" symbol="timerCallback"/>
 <entry field="true" id="8388978" symbol="TONE_TIME_ALERT"/>
 <entry field="true" id="8389162" symbol="COLOR_DK_RED"/>
 <entry field="true" id="22" symbol="dataTimer"/>
@@ -1185,6 +1189,7 @@
 <entry field="true" id="23" symbol="timeStep"/>
 <entry id="8389763" symbol="b"/>
 <entry id="8389762" symbol="a"/>
+<entry id="34" method="true" symbol="jsonCallback"/>
 <entry field="true" id="8389639" symbol="networkKey64Bit"/>
 <entry id="8389730" symbol="Y"/>
 <entry id="8388633" module="true" symbol="ActivityMonitor"/>
@@ -1228,16 +1233,21 @@
 <entry field="true" id="8389044" symbol="SLIDE_IMMEDIATE"/>
 </symbolTable>
 <localVars>
-<entry endPc="268436571" name="i" stackId="3" startPc="268436533"/>
-<entry endPc="268436755" name="accModulo" stackId="2" startPc="268436154"/>
-<entry endPc="268436774" name="info" stackId="1" startPc="268436110"/>
-<entry endPc="268437481" name="rez_cmp_local_label_R1K6HCEI47_fontHeight" stackId="4" startPc="268437093"/>
-<entry endPc="268437481" name="rez_cmp_local_label_R1K6HCEI47" stackId="3" startPc="268437093"/>
-<entry endPc="268437481" name="rez_cmp_local_label_R1K6HCEI47_font" stackId="2" startPc="268437093"/>
-<entry endPc="268437481" name="rez_cmp_local_bitmap_id_monkey" stackId="5" startPc="268437093"/>
+<entry endPc="268436682" name="i" stackId="3" startPc="268436644"/>
+<entry endPc="268436866" name="accModulo" stackId="2" startPc="268436265"/>
+<entry endPc="268436885" name="info" stackId="1" startPc="268436221"/>
+<entry endPc="268437592" name="rez_cmp_local_bitmap_id_monkey" stackId="5" startPc="268437204"/>
+<entry endPc="268437592" name="rez_cmp_local_label_0WWK9EPOA1_font" stackId="2" startPc="268437204"/>
+<entry endPc="268437592" name="rez_cmp_local_label_0WWK9EPOA1_fontHeight" stackId="4" startPc="268437204"/>
+<entry endPc="268437592" name="rez_cmp_local_label_0WWK9EPOA1" stackId="3" startPc="268437204"/>
 </localVars>
 <annotations/>
 <functions>
+<functionEntry name="jsonCallback" parent="HypnosView">
+<param id="responseCode"/>
+<param id="data"/>
+<documentation/>
+</functionEntry>
 <functionEntry name="initialize" parent="HypnosView">
 <documentation/>
 </functionEntry>
