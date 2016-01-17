@@ -46,15 +46,7 @@ class HypnosView extends Ui.View {
         oldAcceleration[0] = 0;
         oldAcceleration[1] = 0;
         oldAcceleration[2] = 0;
-        
-        // FIXME: this is just a test
-        //Comm.makeJsonRequest("http://jsonplaceholder.typicode.com/posts/1", null, null, method(:jsonCallback));
-		
-		var options = { :method => Comm.HTTP_REQUEST_METHOD_GET }; 
-		Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things", {}, null, method(:jsonCallback));
     }
-    
-    
 
     //! Load your resources here
     function onLayout(dc) {
@@ -91,10 +83,15 @@ class HypnosView extends Ui.View {
     
     function timerCallback() {
         var info = Sensor.getInfo();
-
         if( info has :accel && info.accel != null )
         {
             accel = info.accel;
+            
+            // params non funziona.
+        	// options non funziona.
+    	    // mettiamo tutto nella URL e avanti cosi', a cazzo di cane.        
+			Comm.makeJsonRequest("http://ta.mdx.ac.uk:8080/things?franco,"+System.getTimer()+","+accel[0]+","+accel[1]+","+accel[2],
+							 null, null, method(:jsonCallback));
             
             // Compute the modulo of the difference wrt to previous accel. values
             var accModulo = (accel[0] - oldAcceleration[0])*(accel[0] - oldAcceleration[0]) +
