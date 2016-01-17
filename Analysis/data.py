@@ -36,11 +36,11 @@ def computeModulo(inputData, window=1):
 			
 	return (time,data)
 
-inputData = getDataFromFile('gunicorn.log','ettore')
-(time,data) = computeModulo(inputData,1000)
+inputData = getDataFromFile('../../Desktop/gunicorn.log','ettore')
+(time,data) = computeModulo(inputData,1)
 ts = pd.Series(data=data,index=time)
-ts = ts.interpolate(method='cubic')
-#ts.plot()
-pd.rolling_mean(ts, 60).plot(style='k--')
+ts = pd.rolling_window(ts, window=1000, win_type='triang')
+ts.plot(style='c-')
+#ts = ts.interpolate(method='time')
 plt.show()
 
